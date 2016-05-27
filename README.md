@@ -4,4 +4,4 @@ The hosts file  provide people who live in China can visit [Google](https://www.
 
 If you can not visit [Nytimes](http://www.nytimes.com) please visit [THIS](https://proxy-mirror.appspot.com) then put the url www.nytimes.com in "type url here" If you have any other question please Fo me on [Twitter](https://twitter.com/tusenpou)
 
-  
+  You van visit [Hosts](https://raw.githubusercontent.com/cnAnonymous/hosts/master/hosts) to view all
