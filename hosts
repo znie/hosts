@@ -1645,7 +1645,7 @@
 223.255.227.170   www.googlechinawebmaster.com
 223.255.227.170   chromium-build.appspot.com
 223.255.227.170   chromeexperiments-dat.appspot.com
-223.255.227.170   proxy-mirror.appspot.com           #在线代理
+223.255.227.170   proxy-mirror.appspot.com
 223.255.227.170   kd-web-proxy.appspot.com
 223.255.227.170   surfproxy2.appspot.com
 223.255.227.170   proxy-4-web.appspot.com
@@ -1700,11 +1700,11 @@
 64.233.189.188    gcm-xmpp.googleapis.com
 64.233.189.188    gcm-preprod.l.google.com
 64.233.189.188    gcm-preprod.googleapis.com
-74.125.204.189    wildcard-talkgadget.l.google.com           #189结尾
-74.125.204.189    0.talkgadget.google.com                    #189结尾
-74.125.204.189    chromoting-oauth.talkgadget.google.com     #189结尾
-74.125.204.189    hromoting-host.talkgadget.google.com       #189结尾
-74.125.204.189    chromoting-client.talkgadget.google.com    #189结尾
+74.125.204.189    wildcard-talkgadget.l.google.com
+74.125.204.189    0.talkgadget.google.com
+74.125.204.189    chromoting-oauth.talkgadget.google.com
+74.125.204.189    hromoting-host.talkgadget.google.com
+74.125.204.189    chromoting-client.talkgadget.google.com
 64.233.189.128    static.panoramio.com
 74.125.34.40      ssl.panoramio.com
 64.233.189.121    ghs.google.com
