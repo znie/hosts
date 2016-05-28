@@ -1,6 +1,6 @@
 # Copyright (c) cnAnonymous
 # https://github.com/cnAnonymous/hosts
-# Update :  28 May 2016 14:10  +0800
+# Update :  28 May 2016 16:50  +0800
 127.0.0.1         localhost
 ::1               localhost
 # Facebook start
@@ -2690,6 +2690,7 @@
 223.255.227.170   www.whatbrowser.org
 74.125.28.121     b.android.com
 74.125.28.121     tools.android.com
+74.125.28.121     www.chromestatus.com
 74.125.142.127    stun.l.google.com
 74.125.142.127    alt1.stun.l.google.com
 74.125.142.127    alt2.stun.l.google.com
@@ -2745,9 +2746,11 @@
 64.233.189.121    ghs46.l.google.com
 64.233.189.121    gsamplemaps.googlepages.com
 64.233.189.121    goto.ext.google.com
+64.233.189.121    androidgao.googlepages.com
 64.233.184.121    www.chromeexperiments.com
 64.233.184.121    workshop.chromeexperiments.com
 64.233.184.121    1000.chromeexperiments.com
+64.233.184.121    globe.chromeexperiments.com
 216.58.221.16     storage.googleapis.com
 216.58.221.16     commondatastorage.googleapis.com
 218.254.1.13      www.googlesciencefair.com
