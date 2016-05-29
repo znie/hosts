@@ -1,6 +1,6 @@
 # Copyright (c) cnAnonymous
 # https://github.com/cnAnonymous/hosts
-# Update :  29 May 2016 20:30  +0800
+# Update :  29 May 2016 10:30  +0800
 127.0.0.1         localhost
 ::1               localhost
 # Facebook start
@@ -417,16 +417,16 @@
 192.229.237.25    a4.twimg.com
 192.229.237.25    a5.twimg.com
 192.229.232.217   video.twimg.com
-202.171.253.98    r.twimg.com
-202.171.253.98    urls-real.api.twitter.com
-202.171.253.98    tailfeather.twimg.com
-202.171.253.98    image-proxy-origin.twimg.com
-202.171.253.98    pay.twitter.com
-202.171.253.98    ton.twitter.com
-202.171.253.98    widgets.platform.twitter.com
-202.171.253.98    image-proxy-origin.twimg.com
-202.171.253.98    platform.twitter.com
-202.171.253.98    userstream.twitter.com
+218.254.1.13      r.twimg.com
+218.254.1.13      urls-real.api.twitter.com
+218.254.1.13      tailfeather.twimg.com
+218.254.1.13      image-proxy-origin.twimg.com
+218.254.1.13      pay.twitter.com
+218.254.1.13      ton.twitter.com
+218.254.1.13      widgets.platform.twitter.com
+218.254.1.13      image-proxy-origin.twimg.com
+218.254.1.13      platform.twitter.com
+218.254.1.13      userstream.twitter.com
 104.244.42.200    cdn.syndication.twimg.com
 104.244.42.200    cdn.syndication.twitter.com
 104.244.42.200    syndication.twimg.com
