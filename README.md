@@ -4,7 +4,7 @@
   如果你不能访问 [纽约时报](http://www.nytimes.com) 请点击 [这里](https://proxy-mirror.appspot.com) 然后复制 url www.nytimes.com 在 “[type url here..](https://proxy-mirror.appspot.com/www.nytimes.com)” 如果还有其他问题请推特私信我 [Twitter](https://twitter.com/tusenpou)
 
   Hosts 完整地址[https://raw.githubusercontent.com/cnAnonymous/hosts/master/hosts](https://raw.githubusercontent.com/cnAnonymous/hosts/master/hosts) 
- 本文件开源复制时请注明来源  https://github.com/cnAnonymous/hosts    不能在大陆网站传播，本项目不能用作商业用途.
+ 本文件开源复制时请注明来源  https://github.com/cnAnonymous/hosts    不能在大陆网站传播，不能用作商业用途.
 
 
 
@@ -16,6 +16,6 @@ If you can not visit [Nytimes](http://www.nytimes.com) please visit [THIS](https
 
   You can visit [https://raw.githubusercontent.com/cnAnonymous/hosts/master/hosts](https://raw.githubusercontent.com/cnAnonymous/hosts/master/hosts) to view all
   
-  When you copy this file, please indicate the source copy https://github.com/cnAnonymous/hosts, can not be spread in the mainland site, the project can not be used for commercial purposes.
+  When you copy this file, please indicate the source copy https://github.com/cnAnonymous/hosts, can not be spread in the mainland site, can not be used for commercial purposes.
 
 
