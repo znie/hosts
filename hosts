@@ -1,6 +1,6 @@
 # Copyright (c) cnAnonymous
 # https://github.com/cnAnonymous/hosts
-# Update :  29 May 2016 20:30  +0800
+# Update :  30 May 2016 19:00  +0800
 127.0.0.1         localhost
 ::1               localhost
 # Facebook start
@@ -3207,6 +3207,7 @@
 218.254.1.13      github-com.s3.amazonaws.com
 # Amazon AWS End
 # Other start
+23.23.111.66      git.io
 198.35.26.112     upload.wikimedia.org
 198.35.26.96      zh.wikipedia.org
 198.35.26.96      zh.m.wikipedia.org
