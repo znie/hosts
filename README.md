@@ -1,23 +1,10 @@
 ![doodles](https://www.google.com/logos/doodles/2016/41st-anniversary-of-the-discovery-of-the-mountain-of-the-butterflies-5704071614824448.2-hp2x.jpg)
 
 ##   本项目只提供学习、研究，使用产生的法律问题都应由用户自己承担
-  hosts文件提供局域网的网友能够访问 [Google](https://www.google.com/ncr) [Youtube](https://www.youtube.com) [Wikipedia](https://www.wikipedia.org) [Twitter](https://twitter.com) [Facebook](https://www.facebook.com) [Instagram](https://www.instagram.com) [Flickr](https://www.flickr.com)  等等
+  hosts文件提供局域网的网友能够访问 [Google](https://www.google.com/ncr) [Wikipedia](https://www.wikipedia.org)[Dropbox](https://www.dropbox.com) [Twitter](https://twitter.com) [Facebook](https://www.facebook.com) [Instagram](https://www.instagram.com) [Flickr](https://www.flickr.com)  观看[Youtube](https://www.youtube.com)等等
 
-  修改hosts后如果你不能访问 [纽约时报](http://www.nytimes.com) 请点击 [这里](https://proxy-mirror.appspot.com) 然后复制 url www.nytimes.com 在 “[type url here..](https://proxy-mirror.appspot.com/www.nytimes.com)” 
+Hosts 完整地址https://raw.githubusercontent.com/cnAnonymous/hosts/master/hosts 本文件开源复制时请注明来源 https://github.com/cnAnonymous/hosts 不能在大陆网站传播，不能用作商业用途.
+ 
 
-  Hosts 完整地址[https://raw.githubusercontent.com/cnAnonymous/hosts/master/hosts](https://raw.githubusercontent.com/cnAnonymous/hosts/master/hosts) 
- 本文件开源复制时请注明来源  https://github.com/cnAnonymous/hosts    不能在大陆网站传播，不能用作商业用途.
-
-
-
-## 		This project only provides the study, the research, the use of the legal problems should be borne by the user
-
-The hosts file  provide people who live in China can visit [Google](https://www.google.com/ncr) [Youtube](https://www.youtube.com) [Wikipedia](https://www.wikipedia.org) [Twitter](https://twitter.com) [Facebook](https://www.facebook.com) [Instagram](https://www.instagram.com) [Flickr](https://www.flickr.com/)   etc
-
-If you can not visit [Nytimes](http://www.nytimes.com) please visit [THIS](https://proxy-mirror.appspot.com) then put the url www.nytimes.com in “[type url here..](https://proxy-mirror.appspot.com/www.nytimes.com)”
-
-  You can visit [https://raw.githubusercontent.com/cnAnonymous/hosts/master/hosts](https://raw.githubusercontent.com/cnAnonymous/hosts/master/hosts) to view all
-  
-  When you copy this file, please indicate the source copy https://github.com/cnAnonymous/hosts, can not be spread in the mainland site, can not be used for commercial purposes.
 
 
