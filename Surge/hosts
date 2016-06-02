@@ -1,6 +1,6 @@
 # Copyright (c) cnAnonymous
 # https://github.com/cnAnonymous/hosts
-# Update :   2016-6-2
+# Update :   2016-6-3
 
 
 [General]
@@ -702,7 +702,7 @@ i1.ytimg.com = 223.255.227.170
 i2.ytimg.com = 223.255.227.170
 i3.ytimg.com = 223.255.227.170
 i4.ytimg.com = 223.255.227.170
-youtu.be
+youtu.be = 223.255.227.170
 gdata.youtube.com = 223.255.227.170
 gaming.youtube.com = 223.255.227.170
 help.youtube.com = 223.255.227.170
