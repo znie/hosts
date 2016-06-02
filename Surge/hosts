@@ -11,8 +11,7 @@ loglevel = notify
 [Rule]
 FINAL,DIRECT
 
-[Host]
-# Facebook start
+
 fb.com = 31.13.95.17
 www.fb.com = 31.13.95.17
 thefacebook.com = 31.13.95.17
@@ -180,8 +179,6 @@ fbcdn-video-m-a.akamaihd.net = 203.78.36.36
 fbcdn-video-n-a.akamaihd.net = 203.78.36.36
 fbcdn-video-o-a.akamaihd.net = 203.78.36.36
 fbcdn-video-p-a.akamaihd.net = 203.78.36.36
-# Facebook end
-# Instagram start
 igcdn-photos-a-a.akamaihd.net = 203.78.36.36
 igcdn-photos-b-a.akamaihd.net = 203.78.36.36
 igcdn-photos-c-a.akamaihd.net = 203.78.36.36
@@ -373,8 +370,6 @@ scontent.cdninstagram.com = 31.13.95.48
 scontent-a.cdninstagram.com = 31.13.95.48
 scontent-b.cdninstagram.com = 31.13.95.48
 telegraph-ec2proxy.instagram.com = 218.254.1.13
-# Instagram end
-# Yahoo start
 hk.mobi.yahoo.com = 116.214.11.98
 tw.mobi.yahoo.com = 116.214.11.98
 hk.knowledge.yahoo.com = 98.139.21.109
@@ -435,8 +430,6 @@ c6.staticflickr.com = 27.123.51.89
 c7.staticflickr.com = 27.123.51.89
 c8.staticflickr.com = 27.123.51.89
 code.flickr.com = 192.0.79.32
-# Yahoo end
-# Google start
 corp.google.com = 203.208.50.192
 login.corp.google.com = 203.208.50.192
 uberproxy.corp.google.com = 203.208.50.192
@@ -3112,11 +3105,9 @@ r5---sn-juh-h4hs.googlevideo.com = 218.254.1.13
 r6---sn-juh-h4hs.googlevideo.com = 218.254.1.13
 r7---sn-juh-h4hs.googlevideo.com = 218.254.1.13
 r8---sn-juh-h4hs.googlevideo.com = 218.254.1.13
-# Google  end
-# Other start
 gist.github.com = 192.30.252.142
 zh.wikipedia.org = 198.35.26.96
 zh.m.wikipedia.org = 198.35.26.96
 onedrive.live.com = 204.79.197.217
 skyapi.onedrive.live.com = 134.170.111.200
-# Other end
+
