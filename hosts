@@ -1,6 +1,6 @@
 # Copyright (c) cnAnonymous
 # https://github.com/cnAnonymous/hosts
-# Update :   2016-6-2
+# Update :   2016-6-4
 127.0.0.1         localhost
 ::1               localhost
 # Facebook start
@@ -10,12 +10,12 @@
 31.13.95.17       www.thefacebook.com
 31.13.95.17       facebook.com
 31.13.95.17       www.facebook.com
-31.13.95.17       www2.facebook.com 
+31.13.95.17       www2.facebook.com
 31.13.95.17       m.facebook.com
 31.13.95.17       mbasic.facebook.com
 31.13.95.17       badge.facebook.com
 31.13.95.17       developer.facebook.com
-31.13.95.17       c.facebook.com  
+31.13.95.17       c.facebook.com
 31.13.95.17       touch.facebook.com
 31.13.95.17       apps.facebook.com
 31.13.95.17       upload.facebook.com
@@ -78,40 +78,38 @@
 192.0.78.12       managingbias.fb.com
 192.0.78.12       rightsmanager.fb.com
 192.0.78.12       instantarticles.fb.com
+192.0.66.2        messengerplatform.fb.com
+199.201.64.67     threatexchange.fb.com
+31.13.95.6        snaptu-z.facebook.com
+31.13.95.6        snaptu-p1.facebook.com
+31.13.95.6        snaptu-p2.facebook.com
+31.13.78.17       connect.facebook.net
+31.13.78.17       external.xx.fbcdn.net
+31.13.78.17       static.xx.fbcdn.net
+31.13.78.17       scontent.xx.fbcdn.net
+31.13.78.17       scontent-a.xx.fbcdn.net
+31.13.78.17       scontent-b.xx.fbcdn.net
+31.13.78.17       scontent-c.xx.fbcdn.net
+31.13.95.13       video.xx.fbcdn.net
+173.252.89.33     vupload.facebook.com
+173.252.89.33     vupload2.vvv.facebook.com
+173.252.81.7      s-static.facebook.com
+173.252.81.7      static.thefacebook.com
+173.252.108.21    d.facebook.com
+66.220.155.192    mqtt.facebook.com
+66.220.155.192    orcart.facebook.com
+173.252.88.162    edge-mqtt.facebook.com
 218.254.1.13      fb.me
 218.254.1.13      www.fb.me
-218.254.1.13      threatexchange.fb.com
-218.254.1.13      messengerplatform.fb.com
-218.254.1.13      mqtt.facebook.com
-218.254.1.13      edge-mqtt.facebook.com
-218.254.1.13      snaptu-z.facebook.com
-218.254.1.13      snaptu-p1.facebook.com
-218.254.1.13      snaptu-p2.facebook.com
-218.254.1.13      m.lisp6.facebook.com
-218.254.1.13      www.lisp6.facebook.com
 218.254.1.13      b-api.facebook.com
 218.254.1.13      b-graph.facebook.com
-218.254.1.13      orcart.facebook.com
-218.254.1.13      vupload.facebook.com
-218.254.1.13      vupload2.vvv.facebook.com
-218.254.1.13      s-static.facebook.com
-218.254.1.13      static.thefacebook.com
-218.254.1.13      d.facebook.com
-218.254.1.13      connect.facebook.net
-218.254.1.13      external.xx.fbcdn.net
-218.254.1.13      static.xx.fbcdn.net
-218.254.1.13      scontent.xx.fbcdn.net
 218.254.1.13      scontent-mxp.xx.fbcdn.net
 218.254.1.13      scontent-sjc2-1.xx.fbcdn.net
 218.254.1.13      video-sjc2-1.xx.fbcdn.net
-218.254.1.13      scontent-a.xx.fbcdn.net
-218.254.1.13      scontent-b.xx.fbcdn.net
-218.254.1.13      scontent-c.xx.fbcdn.net
 218.254.1.13      scontent-a-sin.xx.fbcdn.net
 218.254.1.13      scontent-b-sin.xx.fbcdn.net
 218.254.1.13      scontent-a-lax.xx.fbcdn.net
 218.254.1.13      scontent-b-lax.xx.fbcdn.net
-31.13.95.13       video.xx.fbcdn.net
 23.48.141.243     s-external.ak.fbcdn.net
 23.48.129.16      s-static.ak.fbcdn.net
 23.48.129.16      s-static.ak.facebook.com
@@ -597,6 +595,16 @@
 203.208.39.205    safebrowsing-cache.google.com
 203.208.39.205    www.googleadservices.com
 203.208.39.205    partner.googleadservices.com
+203.208.39.205    ad.doubleclick.net
+203.208.39.205    bid.g.doubleclick.net
+203.208.39.205    cm.g.doubleclick.net
+203.208.39.205    static.doubleclick.net
+203.208.39.205    stats.g.doubleclick.net
+203.208.39.205    pubads.g.doubleclick.net
+203.208.39.205    googleads.g.doubleclick.net
+203.208.39.205    securepubads.g.doubleclick.net
+203.208.39.205    2542116.fls.doubleclick.net
+203.208.39.205    4212862.fls.doubleclick.net
 203.208.39.205    v1.lscache1.c.bigcache.googleapis.com
 203.208.39.205    v1.lscache2.c.bigcache.googleapis.com
 203.208.39.205    v1.lscache3.c.bigcache.googleapis.com
@@ -1671,7 +1679,6 @@
 223.255.227.170   youtu.be
 223.255.227.170   gdata.youtube.com
 223.255.227.170   gaming.youtube.com
-223.255.227.170   m.youtube.com
 223.255.227.170   help.youtube.com
 223.255.227.170   accounts.youtube.com
 223.255.227.170   insight.youtube.com
@@ -2381,6 +2388,7 @@
 223.255.227.170   blogsofnote.blogspot.com
 223.255.227.170   knownissues.blogspot.com
 223.255.227.170   bloggertemplatespreview.blogspot.com
+223.255.227.170   android-developers.blogspot.com
 223.255.227.170   adwordsapi.blogspot.com
 223.255.227.170   adsense-zhs.blogspot.com
 223.255.227.170   android-developers.blogspot.com
@@ -2446,7 +2454,7 @@
 223.255.227.170   program-think.blogspot.com
 223.255.227.170   windscopo.blogspot.com
 223.255.227.170   hdx3.blogspot.com
-223.255.227.170   hkstockinvestment.blogspot.com  
+223.255.227.170   hkstockinvestment.blogspot.com
 223.255.227.170   blogspot.l.google.com
 223.255.227.170   bks0.books.google.com.hk
 223.255.227.170   bks1.books.google.com.hk
@@ -3764,21 +3772,21 @@
 64.233.189.188    gcm-xmpp.googleapis.com
 64.233.189.188    gcm-preprod.l.google.com
 64.233.189.188    gcm-preprod.googleapis.com
-74.125.204.189    0.talkgadget.google.com                            #
-74.125.204.189    1.talkgadget.google.com
-74.125.204.189    2.talkgadget.google.com
-74.125.204.189    3.talkgadget.google.com
-74.125.204.189    4.talkgadget.google.com
-74.125.204.189    5.talkgadget.google.com
-74.125.204.189    6.talkgadget.google.com
-74.125.204.189    7.talkgadget.google.com
-74.125.204.189    8.talkgadget.google.com
-74.125.204.189    9.talkgadget.google.com
-74.125.204.189    wildcard-talkgadget.l.google.com
-74.125.204.189    hromoting-host.talkgadget.google.com
-74.125.204.189    chromoting-host.talkgadget.google.com
-74.125.204.189    chromoting-oauth.talkgadget.google.com
-74.125.204.189    chromoting-client.talkgadget.google.com             #
+#74.125.204.189   0.talkgadget.google.com
+#74.125.204.189   1.talkgadget.google.com
+#74.125.204.189   2.talkgadget.google.com
+#74.125.204.189   3.talkgadget.google.com
+#74.125.204.189   4.talkgadget.google.com
+#74.125.204.189   5.talkgadget.google.com
+#74.125.204.189   6.talkgadget.google.com
+#74.125.204.189   7.talkgadget.google.com
+#74.125.204.189   8.talkgadget.google.com
+#74.125.204.189   9.talkgadget.google.com
+#74.125.204.189   wildcard-talkgadget.l.google.com
+#74.125.204.189   hromoting-host.talkgadget.google.com
+#74.125.204.189   chromoting-host.talkgadget.google.com
+#74.125.204.189   chromoting-oauth.talkgadget.google.com
+#74.125.204.189   chromoting-client.talkgadget.google.com
 216.58.199.16     storage.googleapis.com
 216.58.199.16     commondatastorage.googleapis.com
 216.58.199.16     static.panoramio.com
@@ -3810,6 +3818,7 @@
 218.254.1.13      www.chromium.org
 218.254.1.13      dev.chromium.org
 218.254.1.13      git.chromium.org
+218.254.1.13      m.youtube.com
 218.254.1.13      www.youtube.com
 218.254.1.13      src.chromium.org
 218.254.1.13      blog.chromium.org
@@ -5054,10 +5063,10 @@
 192.229.144.127   ts.w.org
 192.229.144.127   s.w.org
 192.229.144.127   ts.w.org
-218.254.1.13      xijie.wordpress.com
-218.254.1.13      aiyuan.wordpress.com
-218.254.1.13      chaoglobal.wordpress.com
-218.254.1.13      hexiefarm.wordpress.com
+192.0.78.12       xijie.wordpress.com
+192.0.78.12       aiyuan.wordpress.com
+192.0.78.12       chaoglobal.wordpress.com
+192.0.78.12       hexiefarm.wordpress.com
 # Wordpress end
 # Apkpure start
 108.163.178.42    apkpure.com
@@ -5066,10 +5075,38 @@
 108.163.178.42    a.apkpure.com
 108.163.178.42    download.apkpure.com
 # Apkpure end
+# Archive Start
+218.254.1.13      archive.org
+218.254.1.13      web.archive.org
+# Archive End
+# Box Start
+74.112.184.90     box.com
+74.112.184.85     m.box.com
+74.112.184.85     www.box.com
+74.112.184.70     app.box.com
+74.112.184.80     www.box.net
+104.218.203.34    support.box.com
+# Box End
+# Medium start
+104.16.121.127    medium.com
+104.16.118.145    cdn-static-1.medium.com
+104.16.118.145    cdn-images-1.medium.com
+103.245.222.101   cdn-images-2.medium.com
+# Medium end
+# Vimeo Start
+104.156.85.217    vimeo.com
+104.156.85.217    www.vimeo.com
+104.156.85.217    player.vimeo.com
+103.245.224.143   i.vimeocdn.com
+103.245.224.143   f.vimeocdn.com
+198.245.92.39     click.email.vimeo.com
+# Vimeo End
 # Other start
+204.79.197.217    onedrive.live.com
+134.170.111.200   skyapi.onedrive.live.com
 192.30.252.142    gist.github.com
 198.35.26.96      zh.wikipedia.org
 198.35.26.96      zh.m.wikipedia.org
-204.79.197.217    onedrive.live.com
-134.170.111.200   skyapi.onedrive.live.com
 # Other end
+
+
