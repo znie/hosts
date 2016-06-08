@@ -1,6 +1,6 @@
 # Copyright (c) cnAnonymous
 # https://github.com/cnAnonymous/hosts
-# Update :   2016-6-4
+# Update :   2016-6-8
 127.0.0.1         localhost
 ::1               localhost
 # Facebook start
@@ -10,6 +10,7 @@
 31.13.95.17       www.thefacebook.com
 31.13.95.17       facebook.com
 31.13.95.17       www.facebook.com
+31.13.95.17       web.facebook.com
 31.13.95.17       www2.facebook.com
 31.13.95.17       m.facebook.com
 31.13.95.17       mbasic.facebook.com
@@ -25,14 +26,18 @@
 31.13.95.17       zh-tw.facebook.com
 31.13.95.17       l.facebook.com
 31.13.95.17       lm.facebook.com
+31.13.95.17       b-api.facebook.com
+31.13.95.17       b-graph.facebook.com
+31.13.95.17       rupload.facebook.com
 31.13.95.17       login.facebook.com
 31.13.95.17       graph.facebook.com
 31.13.95.17       ssl.facebook.com
+31.13.95.17       vupload.facebook.com
+31.13.95.17       vupload2.vvv.facebook.com
 31.13.95.17       api.facebook.com
 31.13.95.17       api-read.facebook.com
 31.13.95.17       attachments.facebook.com
 31.13.95.17       developers.facebook.com
-31.13.95.17       staticxx.facebook.com
 31.13.95.17       check4.facebook.com
 31.13.95.17       check6.facebook.com
 31.13.95.17       code.facebook.com
@@ -41,8 +46,10 @@
 31.13.95.17       pixel.facebook.com
 31.13.95.17       star.c10r.facebook.com
 31.13.95.17       star.facebook.com
-31.13.95.17       www.messenger.com
 31.13.95.17       messenger.com
+31.13.95.17       cdn.fbsbx.com
+31.13.95.17       www.messenger.com
+31.13.95.17       attachment.fbsbx.com
 31.13.95.17       zh-cn.messenger.com
 31.13.95.17       zh-hk.messenger.com
 31.13.95.17       zh-tw.messenger.com
@@ -67,6 +74,7 @@
 31.13.95.17       6-edge-chat.facebook.com
 31.13.95.17       bigzipfiles.facebook.com
 31.13.95.17       edge-chat.facebook.com
+31.13.95.17       connect.facebook.net
 31.13.95.35       ent-a.xx.fbcdn.net
 31.13.95.35       ent-b.xx.fbcdn.net
 31.13.95.35       ent-c.xx.fbcdn.net
@@ -82,17 +90,16 @@
 199.201.64.67     threatexchange.fb.com
 31.13.95.6        snaptu-z.facebook.com
 31.13.95.6        snaptu-p1.facebook.com
-31.13.95.6        snaptu-p2.facebook.com
-31.13.78.17       connect.facebook.net
+31.13.95.40       snaptu-p2.facebook.com
 31.13.78.17       external.xx.fbcdn.net
+31.13.78.17       staticxx.facebook.com
 31.13.78.17       static.xx.fbcdn.net
 31.13.78.17       scontent.xx.fbcdn.net
 31.13.78.17       scontent-a.xx.fbcdn.net
 31.13.78.17       scontent-b.xx.fbcdn.net
 31.13.78.17       scontent-c.xx.fbcdn.net
-31.13.95.13       video.xx.fbcdn.net
-173.252.89.33     vupload.facebook.com
-173.252.89.33     vupload2.vvv.facebook.com
+31.13.95.14       video.xx.fbcdn.net
+173.252.81.7      static.facebook.com
 173.252.81.7      s-static.facebook.com
 173.252.81.7      static.thefacebook.com
 173.252.108.21    d.facebook.com
@@ -101,8 +108,6 @@
 173.252.88.162    edge-mqtt.facebook.com
 218.254.1.13      fb.me
 218.254.1.13      www.fb.me
-218.254.1.13      b-api.facebook.com
-218.254.1.13      b-graph.facebook.com
 218.254.1.13      scontent-mxp.xx.fbcdn.net
 218.254.1.13      scontent-sjc2-1.xx.fbcdn.net
 218.254.1.13      video-sjc2-1.xx.fbcdn.net
@@ -358,10 +363,12 @@
 31.13.95.48       badges.instagram.com
 31.13.95.48       platform.instagram.com
 31.13.95.48       maps.instagram.com
+31.13.95.48       upload.instagram.com
 31.13.95.48       scontent.cdninstagram.com
 31.13.95.48       scontent-a.cdninstagram.com
 31.13.95.48       scontent-b.cdninstagram.com
-218.254.1.13      telegraph-ec2proxy.instagram.com
+31.13.95.48       upload-ec2.instagram.com
+52.22.115.108     telegraph-ec2proxy.instagram.com
 # Instagram end
 # Twitter start
 104.244.42.65     www.twitter.com
@@ -1647,6 +1654,7 @@
 223.255.227.170   iso.clients.google.com
 223.255.227.170   android.l.google.com
 223.255.227.170   android.clients.google.com
+223.255.227.170   encrypted.google.com
 223.255.227.170   accounts.google.com.hk
 223.255.227.170   blogsearch.google.com.hk
 223.255.227.170   picasa.google.com.hk
@@ -1904,6 +1912,7 @@
 223.255.227.170   content.googleapis.com
 223.255.227.170   translate.googleapis.com
 223.255.227.170   datasaver.googleapis.com
+223.255.227.170   cloudconfig.googleapis.com
 223.255.227.170   clientmetrics-pa.googleapis.com
 223.255.227.170   storage.l.googleusercontent.com
 223.255.227.170   redirector-bigcache.googleapis.com
@@ -5024,7 +5033,7 @@
 68.232.44.127     email-assets.soundcloud.com
 52.19.170.37      eventgateway.soundcloud.com
 52.19.170.37      eventlogger.soundcloud.com
-52.19.170.37      l9bjkkhaycw6f8f4.soundcloud.com
+54.246.199.249    l9bjkkhaycw6f8f4.soundcloud.com
 68.232.44.96      va.sndcdn.com
 68.232.44.96      a-v2.sndcdn.com
 68.232.44.96      a1.sndcdn.com
@@ -5079,6 +5088,12 @@
 218.254.1.13      archive.org
 218.254.1.13      web.archive.org
 # Archive End
+# AWS Start
+54.231.81.99      s3.amazonaws.com
+54.231.224.24     s3-ap-northeast-1.amazonaws.com
+54.231.241.142    s3-ap-southeast-1.amazonaws.com
+54.231.252.134    s3-ap-southeast-2.amazonaws.com
+# AWS End
 # Box Start
 74.112.184.90     box.com
 74.112.184.85     m.box.com
@@ -5108,5 +5123,3 @@
 198.35.26.96      zh.wikipedia.org
 198.35.26.96      zh.m.wikipedia.org
 # Other end
-
-
