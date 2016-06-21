@@ -1,6 +1,6 @@
 # Copyright (c) cnAnonymous
 # https://github.com/cnAnonymous/hosts
-# Update :   2016-6-14
+# Update :   2016-6-21
 127.0.0.1         localhost
 ::1               localhost
 # Apkpure start
@@ -42,6 +42,12 @@
 103.245.224.143   f.vimeocdn.com
 198.245.92.39     click.email.vimeo.com
 # Vimeo End
+# Imgur Start
+103.245.222.193   imgur.com
+103.245.222.193   www.imgur.com
+103.245.222.193   s.imgur.com
+103.245.222.193   i.imgur.com
+# Imgur End
 # Other start
 204.79.197.217    onedrive.live.com
 134.170.111.200   skyapi.onedrive.live.com
@@ -87,6 +93,7 @@
 68.232.44.127     feeds.soundcloud.com
 68.232.44.127     visuals.soundcloud.com
 68.232.44.127     api.soundcloud.com
+68.232.44.127     api-mobi.soundcloud.com
 68.232.44.127     api-mobileweb.soundcloud.com
 68.232.44.127     api-mobile.soundcloud.com
 68.232.44.127     api-v2.soundcloud.com
@@ -95,7 +102,7 @@
 68.232.44.127     email-assets.soundcloud.com
 52.19.170.37      eventgateway.soundcloud.com
 52.19.170.37      eventlogger.soundcloud.com
-54.246.199.249    l9bjkkhaycw6f8f4.soundcloud.com
+54.171.39.69      l9bjkkhaycw6f8f4.soundcloud.com
 68.232.44.96      va.sndcdn.com
 68.232.44.96      a-v2.sndcdn.com
 68.232.44.96      a1.sndcdn.com
@@ -181,7 +188,6 @@
 31.13.95.17       5-edge-chat.facebook.com
 31.13.95.17       6-edge-chat.facebook.com
 31.13.95.17       bigzipfiles.facebook.com
-31.13.95.17       edge-chat.facebook.com
 31.13.95.17       connect.facebook.net
 31.13.95.35       ent-a.xx.fbcdn.net
 31.13.95.35       ent-b.xx.fbcdn.net
@@ -213,7 +219,7 @@
 173.252.108.21    d.facebook.com
 66.220.155.192    mqtt.facebook.com
 66.220.155.192    orcart.facebook.com
-173.252.88.162    edge-mqtt.facebook.com
+66.220.155.192    edge-mqtt.facebook.com
 218.254.1.13      fb.me
 218.254.1.13      www.fb.me
 218.254.1.13      scontent-mxp.xx.fbcdn.net
@@ -467,7 +473,6 @@
 31.13.95.48       logger.instagram.com
 31.13.95.48       bolt.instagram.com
 31.13.95.48       business.instagram.com
-31.13.95.48       blog.instagram.com
 31.13.95.48       badges.instagram.com
 31.13.95.48       platform.instagram.com
 31.13.95.48       maps.instagram.com
@@ -476,7 +481,7 @@
 31.13.95.48       scontent-a.cdninstagram.com
 31.13.95.48       scontent-b.cdninstagram.com
 31.13.95.48       upload-ec2.instagram.com
-52.22.115.108     telegraph-ec2proxy.instagram.com
+52.203.228.98     telegraph-ec2proxy.instagram.com
 # Instagram end
 # Twitter start
 104.244.42.65     www.twitter.com
@@ -1663,6 +1668,8 @@
 223.255.227.170   blog.google.org
 223.255.227.170   google.com
 223.255.227.170   www.google.com
+223.255.227.170   google.com.hk
+223.255.227.170   www.google.com.hk
 223.255.227.170   www.gmail.com
 223.255.227.170   gmail.com
 223.255.227.170   m.gmail.com
@@ -1736,6 +1743,7 @@
 223.255.227.170   id.google.com
 223.255.227.170   images.google.com
 223.255.227.170   news.google.com
+223.255.227.170   fonts.google.com
 223.255.227.170   picasaweb.google.com
 223.255.227.170   plus.google.com
 223.255.227.170   scholar.google.com
@@ -1761,8 +1769,6 @@
 223.255.227.170   android.l.google.com
 223.255.227.170   android.clients.google.com
 223.255.227.170   encrypted.google.com
-223.255.227.170   google.com.hk
-223.255.227.170   www.google.com.hk
 223.255.227.170   accounts.google.com.hk
 223.255.227.170   blogsearch.google.com.hk
 223.255.227.170   picasa.google.com.hk
@@ -1785,17 +1791,6 @@
 223.255.227.170   maps.google.com.hk
 223.255.227.170   mobile.google.com.hk
 223.255.227.170   image.google.com.hk
-223.255.227.170   bks0.books.google.com.hk
-223.255.227.170   bks1.books.google.com.hk
-223.255.227.170   bks2.books.google.com.hk
-223.255.227.170   bks3.books.google.com.hk
-223.255.227.170   bks4.books.google.com.hk
-223.255.227.170   bks5.books.google.com.hk
-223.255.227.170   bks6.books.google.com.hk
-223.255.227.170   bks7.books.google.com.hk
-223.255.227.170   bks8.books.google.com.hk
-223.255.227.170   bks9.books.google.com.hk
-223.255.227.170   bks10.books.google.com.hk
 223.255.227.170   i.ytimg.com
 223.255.227.170   s.ytimg.com
 223.255.227.170   ai.ytimg.com
@@ -1803,6 +1798,11 @@
 223.255.227.170   i2.ytimg.com
 223.255.227.170   i3.ytimg.com
 223.255.227.170   i4.ytimg.com
+223.255.227.170   i5.ytimg.com
+223.255.227.170   i6.ytimg.com
+223.255.227.170   i7.ytimg.com
+223.255.227.170   i8.ytimg.com
+223.255.227.170   i9.ytimg.com
 223.255.227.170   youtu.be
 223.255.227.170   gdata.youtube.com
 223.255.227.170   gaming.youtube.com
@@ -2033,6 +2033,7 @@
 223.255.227.170   datasaver.googleapis.com
 223.255.227.170   securetoken.googleapis.com
 223.255.227.170   cloudconfig.googleapis.com
+223.255.227.170   remoting-pa.googleapis.com
 223.255.227.170   firebase.googleapis.com
 223.255.227.170   firebasestorage.googleapis.com
 223.255.227.170   clientmetrics-pa.googleapis.com
@@ -2519,6 +2520,7 @@
 223.255.227.170   img.blogblog.com
 223.255.227.170   img1.blogblog.com
 223.255.227.170   img2.blogblog.com
+223.255.227.170   resources.blogblog.com
 223.255.227.170   blogsofnote.blogspot.com
 223.255.227.170   knownissues.blogspot.com
 223.255.227.170   bloggertemplatespreview.blogspot.com
@@ -2615,8 +2617,20 @@
 223.255.227.170   program-think.blogspot.com
 223.255.227.170   windscopo.blogspot.com
 223.255.227.170   hdx3.blogspot.com
+223.255.227.170   pyfound.blogspot.com
 223.255.227.170   hkstockinvestment.blogspot.com
 223.255.227.170   blogspot.l.google.com
+223.255.227.170   bks0.books.google.com.hk
+223.255.227.170   bks1.books.google.com.hk
+223.255.227.170   bks2.books.google.com.hk
+223.255.227.170   bks3.books.google.com.hk
+223.255.227.170   bks4.books.google.com.hk
+223.255.227.170   bks5.books.google.com.hk
+223.255.227.170   bks6.books.google.com.hk
+223.255.227.170   bks7.books.google.com.hk
+223.255.227.170   bks8.books.google.com.hk
+223.255.227.170   bks9.books.google.com.hk
+223.255.227.170   bks10.books.google.com.hk
 223.255.227.170   ext.google.com
 223.255.227.170   www.googlecode.com
 223.255.227.170   googleappengine.googlecode.com
@@ -4258,6 +4272,8 @@
 218.254.1.13      r2---sn-i3j5cax-i3bl.googlevideo.com
 218.254.1.13      r3---sn-i3j5cax-i3bl.googlevideo.com
 218.254.1.13      r4---sn-i3j5cax-i3bl.googlevideo.com
+218.254.1.13      r1---sn-jna-i3b6.googlevideo.com
+218.254.1.13      r2---sn-jna-i3b6.googlevideo.com
 218.254.1.13      r1---sn-jhi3-i3bl.googlevideo.com
 218.254.1.13      r2---sn-jhi3-i3bl.googlevideo.com
 218.254.1.13      r3---sn-jhi3-i3bl.googlevideo.com
@@ -4599,19 +4615,20 @@
 # Google  end
 # Dropbox start
 162.125.66.1      www.dropbox.com
-218.254.1.13      dropbox.com
-218.254.1.13      www.v.dropbox.com
-218.254.1.13      m.dropbox.com
+202.171.253.98    dropbox.com
+202.171.253.98    www.v.dropbox.com
+202.171.253.98    m.dropbox.com
 108.160.172.193   d.dropbox.com
 108.160.172.193   d.v.dropbox.com
 108.160.172.193   api-d.dropbox.com
 108.160.172.237   api.dropbox.com
 108.160.172.237   api.v.dropbox.com
 108.160.172.237   api-notify.dropbox.com
+108.160.172.233   www.dropboxstatic.com
+108.160.172.201   dbxlocal.dropboxstatic.com
 199.47.217.36     api-content.dropbox.com
 108.160.172.207   photos.dropbox.com
 162.125.34.129    bolt.dropbox.com
-108.160.172.201   dbxlocal.dropboxstatic.com
 162.125.17.129    photos-thumb.x.dropbox.com
 199.47.217.97     block.dropbox.com
 199.47.217.97     block.v.dropbox.com
@@ -5118,5 +5135,4 @@
 199.47.217.65     dl-client128.dropbox.com
 199.47.217.65     dl-client129.dropbox.com
 # Dropbox  end
-
 
