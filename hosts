@@ -1,6 +1,6 @@
 # Copyright (c) cnAnonymous
 # https://github.com/cnAnonymous/hosts
-# Update :   2016-7-3
+# Update :   2016-7-4
 127.0.0.1         localhost
 ::1               localhost
 # Box Start
@@ -50,7 +50,6 @@
 52.19.170.37      eventgateway.soundcloud.com
 52.19.170.37      eventlogger.soundcloud.com
 54.171.39.69      l9bjkkhaycw6f8f4.soundcloud.com
-191.101.229.116   htcui.com
 68.232.44.96      va.sndcdn.com
 68.232.44.96      a-v2.sndcdn.com
 68.232.44.96      a1.sndcdn.com
