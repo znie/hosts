@@ -1,6 +1,6 @@
 # Copyright (c) cnAnonymous
 # https://github.com/cnAnonymous/hosts
-# Update :   2016-6-30
+# Update :   2016-7-3
 127.0.0.1         localhost
 ::1               localhost
 # Box Start
@@ -1930,7 +1930,6 @@
 223.255.227.170   payments.google.com
 223.255.227.170   calendar.google.com
 223.255.227.170   drive.google.com
-223.255.227.170   docs.google.com
 223.255.227.170   code.google.com
 223.255.227.170   finance.google.com
 223.255.227.170   services.google.com
@@ -1959,7 +1958,6 @@
 223.255.227.170   video.google.com
 223.255.227.170   wenda.google.com
 223.255.227.170   books.google.com
-223.255.227.170   clients1.google.com
 223.255.227.170   desktop.google.com
 223.255.227.170   groups.google.com
 223.255.227.170   gxc.google.com
@@ -2107,6 +2105,7 @@
 223.255.227.170   lh4.google.com
 223.255.227.170   lh5.google.com
 223.255.227.170   lh6.google.com
+223.255.227.170   docs.google.com
 223.255.227.170   docs0.google.com
 223.255.227.170   docs1.google.com
 223.255.227.170   docs2.google.com
@@ -4444,22 +4443,6 @@
 218.254.1.13      r2---sn-jna-i3bs.googlevideo.com
 218.254.1.13      r3---sn-jna-i3bs.googlevideo.com
 218.254.1.13      r4---sn-jna-i3bs.googlevideo.com
-218.254.1.13      r1---sn-juh-h4hz.googlevideo.com
-218.254.1.13      r2---sn-juh-h4hz.googlevideo.com
-218.254.1.13      r3---sn-juh-h4hz.googlevideo.com
-218.254.1.13      r4---sn-juh-h4hz.googlevideo.com
-218.254.1.13      r5---sn-juh-h4hz.googlevideo.com
-218.254.1.13      r6---sn-juh-h4hz.googlevideo.com
-218.254.1.13      r7---sn-juh-h4hz.googlevideo.com
-218.254.1.13      r8---sn-juh-h4hz.googlevideo.com
-218.254.1.13      r1---sn-juh-h4hs.googlevideo.com
-218.254.1.13      r2---sn-juh-h4hs.googlevideo.com
-218.254.1.13      r3---sn-juh-h4hs.googlevideo.com
-218.254.1.13      r4---sn-juh-h4hs.googlevideo.com
-218.254.1.13      r5---sn-juh-h4hs.googlevideo.com
-218.254.1.13      r6---sn-juh-h4hs.googlevideo.com
-218.254.1.13      r7---sn-juh-h4hs.googlevideo.com
-218.254.1.13      r8---sn-juh-h4hs.googlevideo.com
 218.254.1.13      r1---sn-i3b7kn76.gvt1.com
 218.254.1.13      r2---sn-i3b7kn76.gvt1.com
 218.254.1.13      r3---sn-i3b7kn76.gvt1.com
@@ -4774,10 +4757,10 @@
 218.254.1.13      r6---sn-i3beln7z.gvt1.com
 # Google  end
 # Dropbox start
-162.125.66.1      m.dropbox.com
-162.125.66.1      www.dropbox.com
-162.125.66.1      dropbox.com             #
-162.125.66.1      www.v.dropbox.com       #
+218.254.1.13      dropbox.com
+218.254.1.13      m.dropbox.com
+218.254.1.13      www.dropbox.com
+218.254.1.13      www.v.dropbox.com
 108.160.172.193   d.dropbox.com
 108.160.172.193   d.v.dropbox.com
 108.160.172.193   api-d.dropbox.com
