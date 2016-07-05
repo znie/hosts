@@ -1,6 +1,6 @@
 # Copyright (c) cnAnonymous
 # https://github.com/cnAnonymous/hosts
-# Update :   2016-7-4
+# Update :   2016-7-5
 127.0.0.1         localhost
 ::1               localhost
 # Box Start
@@ -47,9 +47,9 @@
 68.232.44.127     featured-profiles.soundcloud.com
 68.232.44.127     promoted.soundcloud.com
 68.232.44.127     email-assets.soundcloud.com
-52.19.170.37      eventgateway.soundcloud.com
-52.19.170.37      eventlogger.soundcloud.com
-54.171.39.69      l9bjkkhaycw6f8f4.soundcloud.com
+52.18.172.128     eventgateway.soundcloud.com
+52.18.172.128     eventlogger.soundcloud.com
+52.18.172.128     l9bjkkhaycw6f8f4.soundcloud.com
 68.232.44.96      va.sndcdn.com
 68.232.44.96      a-v2.sndcdn.com
 68.232.44.96      a1.sndcdn.com
@@ -145,6 +145,8 @@
 134.170.111.200   skyapi.onedrive.live.com
 198.35.26.96      zh.wikipedia.org
 198.35.26.96      zh.m.wikipedia.org
+68.232.44.229     cdn.www.xda-developers.com
+68.232.44.229     wac.8244.edgecastcdn.net
 192.30.252.142    gist.github.com
 103.245.222.133   raw.githubusercontent.com
 # Other end
@@ -812,6 +814,12 @@
 203.208.39.205    redirector.gvt1.com
 203.208.39.205    redirector.c.youtube.com
 203.208.39.205    redirector.googlevideo.com
+203.208.39.205    toolbarqueries.google.com.tw
+203.208.39.205    toolbarqueries.google.com.sg
+203.208.39.205    toolbarqueries.google.co.jp
+203.208.39.205    toolbarqueries.google.co.kr
+203.208.39.205    toolbarqueries.google.com.hk
+203.208.39.205    toolbarqueries.google.com
 203.208.39.205    safebrowsing-cache.google.com
 203.208.39.205    v1.lscache1.c.bigcache.googleapis.com
 203.208.39.205    v1.lscache2.c.bigcache.googleapis.com
@@ -1720,7 +1728,6 @@
 64.233.162.81     picasaweb.google.com.tw
 64.233.162.81     scholar.google.com.tw
 64.233.162.81     toolbar.google.com.tw
-64.233.162.81     toolbarqueries.google.com.tw
 64.233.162.81     translate.google.com.tw
 64.233.162.81     video.google.com.tw
 64.233.162.81     wenda.google.com.tw
@@ -1744,7 +1751,6 @@
 64.233.162.81     picasaweb.google.com.sg
 64.233.162.81     scholar.google.com.sg
 64.233.162.81     toolbar.google.com.sg
-64.233.162.81     toolbarqueries.google.com.sg
 64.233.162.81     translate.google.com.sg
 64.233.162.81     video.google.com.sg
 64.233.162.81     wenda.google.com.sg
@@ -1768,7 +1774,6 @@
 64.233.162.81     picasaweb.google.co.jp
 64.233.162.81     scholar.google.co.jp
 64.233.162.81     toolbar.google.co.jp
-64.233.162.81     toolbarqueries.google.co.jp
 64.233.162.81     translate.google.co.jp
 64.233.162.81     video.google.co.jp
 64.233.162.81     wenda.google.co.jp
@@ -1794,7 +1799,6 @@
 64.233.162.81     picasaweb.google.co.kr
 64.233.162.81     scholar.google.co.kr
 64.233.162.81     toolbar.google.co.kr
-64.233.162.81     toolbarqueries.google.co.kr
 64.233.162.81     translate.google.co.kr
 64.233.162.81     video.google.co.kr
 64.233.162.81     wenda.google.co.kr
@@ -1860,7 +1864,6 @@
 223.255.227.170   picasaweb.google.com.hk
 223.255.227.170   scholar.google.com.hk
 223.255.227.170   toolbar.google.com.hk
-223.255.227.170   toolbarqueries.google.com.hk
 223.255.227.170   translate.google.com.hk
 223.255.227.170   video.google.com.hk
 223.255.227.170   wenda.google.com.hk
@@ -1952,7 +1955,6 @@
 223.255.227.170   plus.google.com
 223.255.227.170   scholar.google.com
 223.255.227.170   toolbar.google.com
-223.255.227.170   toolbarqueries.google.com
 223.255.227.170   translate.google.com
 223.255.227.170   video.google.com
 223.255.227.170   wenda.google.com
@@ -2467,6 +2469,9 @@
 223.255.227.170   browserchannel-docs.l.google.com
 223.255.227.170   www-google-analytics.l.google.com
 223.255.227.170   browserchannel-spreadsheets.l.google.com
+223.255.227.170   admob.com
+223.255.227.170   www.admob.com
+223.255.227.170   apps.admob.com
 223.255.227.170   0.gvt0.com
 223.255.227.170   1.gvt0.com
 223.255.227.170   2.gvt0.com
@@ -2730,30 +2735,61 @@
 223.255.227.170   chromium-build.appspot.com
 223.255.227.170   virustotalcloud.appspot.com
 223.255.227.170   blockly-games.appspot.com
+223.255.227.170   buildwithchrome.appspot.com
 223.255.227.170   feelinsonice-hrd.appspot.com
 223.255.227.170   chromeexperiments-dat.appspot.com
 223.255.227.170   gms-carousel-dot-lookinsoclear.appspot.com
 223.255.227.170   withgoogle.com
 223.255.227.170   www.withgoogle.com
-223.255.227.170   foobar.withgoogle.com
-223.255.227.170   atmosphere.withgoogle.com
 223.255.227.170   accelerate.withgoogle.com
-223.255.227.170   insgruene.withgoogle.com
-223.255.227.170   smartypins.withgoogle.com
-223.255.227.170   streetart.withgoogle.com
-223.255.227.170   cardboard.withgoogle.com
-223.255.227.170   candidatos.withgoogle.com
-223.255.227.170   trendstw.withgoogle.com
-223.255.227.170   spellup.withgoogle.com
-223.255.227.170   kickwithchrome.withgoogle.com
-223.255.227.170   impactchallenge.withgoogle.com
-223.255.227.170   eduproducts.withgoogle.com
-223.255.227.170   interstellar.withgoogle.com
-223.255.227.170   edudirectory.withgoogle.com
-223.255.227.170   chinesenewyear.withgoogle.com
-223.255.227.170   dutrainingcenter.withgoogle.com
+223.255.227.170   analyticsacademy.withgoogle.com
+223.255.227.170   atmosphere.withgoogle.com
 223.255.227.170   atmospheretokyo.withgoogle.com
+223.255.227.170   britishmuseum.withgoogle.com
+223.255.227.170   brasilfreewifi.withgoogle.com
+223.255.227.170   candidatos.withgoogle.com
+223.255.227.170   cardboard.withgoogle.com
+223.255.227.170   chinesenewyear.withgoogle.com
 223.255.227.170   connectedclassrooms.withgoogle.com
+223.255.227.170   datasense.withgoogle.com
+223.255.227.170   devart.withgoogle.com
+223.255.227.170   digitalgarage.withgoogle.com
+223.255.227.170   docchinogame.withgoogle.com
+223.255.227.170   earthview.withgoogle.com
+223.255.227.170   edudirectory.withgoogle.com
+223.255.227.170   edutrainingcenter.withgoogle.com
+223.255.227.170   foobar.withgoogle.com
+223.255.227.170   frightgeist.withgoogle.com
+223.255.227.170   fvm.withgoogle.com
+223.255.227.170   impactchallenge.withgoogle.com
+223.255.227.170   insgruene.withgoogle.com
+223.255.227.170   insideabbeyroad.withgoogle.com
+223.255.227.170   interstellar.withgoogle.com
+223.255.227.170   kickwithchrome.withgoogle.com
+223.255.227.170   lightsaber.withgoogle.com
+223.255.227.170   maketime.withgoogle.com
+223.255.227.170   mapping.withgoogle.com
+223.255.227.170   newslab.withgoogle.com
+223.255.227.170   nikhelp.withgoogle.com
+223.255.227.170   performingarts.withgoogle.com
+223.255.227.170   projectshield.withgoogle.com
+223.255.227.170   rework.withgoogle.com
+223.255.227.170   smartypins.withgoogle.com
+223.255.227.170   summerofcode.withgoogle.com
+223.255.227.170   spellup.withgoogle.com
+223.255.227.170   streetart.withgoogle.com
+223.255.227.170   takeaction.withgoogle.com
+223.255.227.170   think.withgoogle.com
+223.255.227.170   trainerlearningcenter.withgoogle.com
+223.255.227.170   trendstw.withgoogle.com
+223.255.227.170   tourbuilder.withgoogle.com
+223.255.227.170   yourtour.withgoogle.com
+223.255.227.170   whichphone.withgoogle.com
+223.255.227.170   whichphone-api.withgoogle.com
+223.255.227.170   www.fvm.withgoogle.com
+223.255.227.170   thinkwithgoogle.com
+223.255.227.170   www.thinkwithgoogle.com
+223.255.227.170   testmysite.thinkwithgoogle.com
 223.255.227.170   googlecode.com
 223.255.227.170   www.googlecode.com
 223.255.227.170   sawbuck.googlecode.com
@@ -2883,6 +2919,7 @@
 223.255.227.170   4-ps.googleusercontent.com
 223.255.227.170   music.googleusercontent.com
 223.255.227.170   books.googleusercontent.com
+223.255.227.170   apidata.googleusercontent.com
 223.255.227.170   webcache.googleusercontent.com
 223.255.227.170   oauth.googleusercontent.com
 223.255.227.170   video.googleusercontent.com
@@ -4082,6 +4119,7 @@
 74.125.28.121     tools.android.com
 74.125.28.121     ghs46.google.com
 74.125.28.121     ghs46.l.google.com
+74.125.28.121     blog.panoramio.com
 74.125.28.121     www.chromestatus.com
 74.125.28.121     www.android-x86.org
 74.125.28.121     calendar.android-x86.org
@@ -4756,6 +4794,7 @@
 218.254.1.13      r6---sn-i3beln7z.gvt1.com
 # Google  end
 # Dropbox start
+218.254.1.13      db.tt
 218.254.1.13      dropbox.com
 218.254.1.13      m.dropbox.com
 218.254.1.13      www.dropbox.com
@@ -4787,11 +4826,11 @@
 162.125.18.2      photos-4.dropbox.com
 162.125.18.2      photos-5.dropbox.com
 162.125.18.2      photos-6.dropbox.com
-54.192.213.118    status.dropbox.com          #AWS
-54.192.213.118    marketing.dropbox.com       #AWS
-54.192.213.118    blogs.dropbox.com           #AWS
-54.192.213.118    forums.dropbox.com          #AWS
-54.192.213.118    snapengage.dropbox.com      #AWS
+54.192.213.118    status.dropbox.com
+54.192.213.118    marketing.dropbox.com
+54.192.213.118    blogs.dropbox.com
+54.192.213.118    forums.dropbox.com
+54.192.213.118    snapengage.dropbox.com
 162.125.32.129    notify.dropbox.com
 162.125.32.129    notify1.dropbox.com
 162.125.32.129    notify2.dropbox.com
