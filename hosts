@@ -1,23 +1,24 @@
 # Copyright (c) cnAnonymous
 # https://github.com/cnAnonymous/hosts
-# Update :   2016-7-5
+# Update :   2016-7-8
 127.0.0.1         localhost
 ::1               localhost
-# Box Start
+# Box start
 74.112.184.90     box.com
 74.112.184.85     m.box.com
 74.112.184.85     www.box.com
 74.112.184.70     app.box.com
 74.112.184.80     www.box.net
 104.218.203.34    support.box.com
-# Box End
-# AWS Start
+# Box end
+# AWS start
 54.231.81.99      s3.amazonaws.com
 54.231.11.136     github-com.s3.amazonaws.com
 54.231.72.115     github-cloud.s3.amazonaws.com
 54.231.243.162    s3-ap-southeast-1.amazonaws.com
 54.231.252.66     s3-ap-southeast-2.amazonaws.com
-# AWS End
+54.231.11.136     github-windows.s3.amazonaws.com
+# AWS end
 # Apkpure start
 108.163.178.42    apkpure.com
 108.163.178.42    www.apkpure.com
@@ -26,12 +27,12 @@
 108.163.178.42    static.apkpure.com
 108.163.178.42    download.apkpure.com
 # Apkpure end
-# Archive Start
-218.254.1.13      archive.org
+# Archive start
+218.254.1.13      archive.org     #下载请使用Dnsmasq泛解析
 218.254.1.13      web.archive.org
 218.254.1.13      analytics.archive.org
-# Archive End
-# SoundCloud Start
+# Archive end
+# SoundCloud start
 68.232.44.127     m.soundcloud.com
 68.232.44.127     soundcloud.com
 68.232.44.127     on.soundcloud.com
@@ -63,7 +64,7 @@
 68.232.45.67      ec-media.soundcloud.com
 68.232.46.220     ec-rtmp-media.soundcloud.com
 66.228.50.217     blog.soundcloud.com
-# SoundCloud End
+# SoundCloud end
 # Wordpress start
 192.0.78.22       public-api.wordpress.com
 192.0.78.26       botd2.wordpress.com
@@ -97,14 +98,14 @@
 192.0.78.12       chaoglobal.wordpress.com
 192.0.78.12       hexiefarm.wordpress.com
 # Wordpress end
-# Vimeo Start
+# Vimeo start
 104.156.85.217    vimeo.com
 104.156.85.217    www.vimeo.com
 104.156.85.217    player.vimeo.com
 103.245.224.143   i.vimeocdn.com
 103.245.224.143   f.vimeocdn.com
 198.245.92.39     click.email.vimeo.com
-# Vimeo End
+# Vimeo end
 # Medium start
 104.16.120.127    medium.com
 104.16.120.127    www.medium.com
@@ -118,8 +119,8 @@
 # Startpage start
 43.249.39.6       startpage.com
 43.249.39.6       www.startpage.com
+43.249.39.23      ixquick-proxy.com
 37.0.89.56        support.startpage.com
-37.0.88.62        support.ixquick.com
 37.0.88.62        blog.startpage.com
 # Startpage end
 # DuckDuckGo start
@@ -129,27 +130,55 @@
 54.251.178.52     images.duckduckgo.com
 54.251.178.52     icons.duckduckgo.com
 # DuckDuckGo end
-# Imgur Start
+# Imgur start
 103.245.222.193   imgur.com
 103.245.222.193   www.imgur.com
 103.245.222.193   s.imgur.com
 103.245.222.193   i.imgur.com
-# Imgur End
-# Snapchat Start
-74.125.28.121     www.snapchat.com
-74.125.28.121     support.snapchat.com
-74.125.28.121     accounts.snapchat.com
-# Snapchat End
-# Other start
+# Imgur end
+# MEGA start
+154.53.224.158    mega.nz
+154.53.224.118    mega.co.nz
+31.216.147.156    w.api.mega.co.nz
+31.216.147.133    eu.api.mega.co.nz
+117.18.237.188    g.cdn1.mega.co.nz
+154.53.224.134    eu.static.mega.co.nz
+# MEGA end
+# FlipBoard start
+54.236.138.115    beacon.flipboard.com
+54.236.138.115    fbprod.flipboard.com
+# FlipBoard end
+# W3schools start
+66.29.212.110      w3schools.com
+68.232.44.251      www.w3schools.com
+# W3schools end
+# Microsoft start
 204.79.197.217    onedrive.live.com
 134.170.111.200   skyapi.onedrive.live.com
+# Microsoft end
+# Wiki start
 198.35.26.96      zh.wikipedia.org
 198.35.26.96      zh.m.wikipedia.org
+# Wiki end
+# XDA start
 68.232.44.229     cdn.www.xda-developers.com
 68.232.44.229     wac.8244.edgecastcdn.net
+#174.129.2.23     cdn.xda-developers.com
+#192.229.144.96   cdn1.xda-developers.com
+#192.229.144.96   cdn2.xda-developers.com
+#192.229.144.96   cdn3.xda-developers.com
+#192.229.144.96   cdn-img.xda-developers.com
+#192.229.144.96   cdn-www.xda-developers.com
+#192.229.144.96   cs261.wac.edgecastcdn.net
+#93.184.216.96    cdn4.xda-developers.com
+#207.244.72.9     forum.xda-developers.com
+#209.58.128.90    www.xda-developers.com
+#209.58.128.90    xda-developers.com
+# XDA end
+# Github start
 192.30.252.142    gist.github.com
 103.245.222.133   raw.githubusercontent.com
-# Other end
+# Github end
 # Facebook start
 31.13.95.17       m.me
 31.13.95.17       fb.com
@@ -662,6 +691,7 @@
 203.84.197.27     widgets.flickr.com
 203.84.197.27     downloadr.flickr.com
 203.84.197.27     developer.flickr.com
+203.84.197.27     www.tumblr.com
 69.147.76.173     downloads.flickr.com
 69.147.76.173     flickr.com
 106.10.137.23     static.flickr.com
@@ -692,7 +722,6 @@
 27.123.51.89      c8.staticflickr.com
 192.0.79.32       code.flickr.com
 66.6.41.30        tumblr.com
-66.6.41.30        www.tumblr.com
 66.6.41.23        api.tumblr.com
 66.6.41.21        t.tumblr.com
 66.6.41.25        test.origin.tumblr.com
@@ -763,6 +792,7 @@
 203.208.39.205    s0.2mdn.net
 203.208.39.205    s1.2mdn.net
 203.208.39.205    domains.googlesyndication.com
+203.208.39.205    tpc.googlesyndication.com
 203.208.39.205    www.googletagservices.com
 203.208.39.205    www.googletagmanager.com
 203.208.39.205    music.googleusercontent.cn
@@ -1820,21 +1850,21 @@
 223.255.227.170   pack.google.cn
 223.255.227.170   g.co
 223.255.227.170   goo.gl
+223.255.227.170   pay.app.goo.gl
 223.255.227.170   youtu.be
 223.255.227.170   abc.xyz
 223.255.227.170   www.abc.xyz
 223.255.227.170   nic.google
-223.255.227.170   schema.org
 223.255.227.170   gcr.io
 223.255.227.170   www.gcr.io
 223.255.227.170   com.google
 223.255.227.170   chromium.org
 223.255.227.170   golang.org
 223.255.227.170   www.golang.org
-223.255.227.170   google.org
-223.255.227.170   www.google.org
 223.255.227.170   blog.google.org
 223.255.227.170   domains.google
+223.255.227.170   schema.org
+223.255.227.170   www.schema.org
 223.255.227.170   bib.schema.org
 223.255.227.170   auto.schema.org
 223.255.227.170   registry.google
@@ -1843,6 +1873,8 @@
 223.255.227.170   www.webmproject.org
 223.255.227.170   whatbrowser.org
 223.255.227.170   www.whatbrowser.org
+223.255.227.170   google.org
+223.255.227.170   www.google.org
 223.255.227.170   blog.golang.org
 223.255.227.170   play.golang.org
 223.255.227.170   tour.golang.org
@@ -1889,15 +1921,8 @@
 223.255.227.170   bks10.books.google.com.hk
 223.255.227.170   google.com
 223.255.227.170   www.google.com
-223.255.227.170   www.gmail.com
-223.255.227.170   gmail.com
-223.255.227.170   m.gmail.com
-223.255.227.170   m.googlemail.com
 223.255.227.170   gmail.google.com
 223.255.227.170   mail.google.com
-223.255.227.170   google-analytics.com
-223.255.227.170   chrome.com
-223.255.227.170   www.chrome.com
 223.255.227.170   keep.google.com
 223.255.227.170   on.google.com
 223.255.227.170   goto.google.com
@@ -1915,11 +1940,6 @@
 223.255.227.170   play.google.com
 223.255.227.170   store.google.com
 223.255.227.170   inbox.google.com
-223.255.227.170   android.com
-223.255.227.170   www.android.com
-223.255.227.170   source.android.com
-223.255.227.170   market.android.com
-223.255.227.170   developer.android.com
 223.255.227.170   scholar.google.com
 223.255.227.170   cloud.google.com
 223.255.227.170   storage.cloud.google.com
@@ -1969,20 +1989,6 @@
 223.255.227.170   cse.google.com
 223.255.227.170   design.google.com
 223.255.227.170   encrypted.google.com
-223.255.227.170   gdata.youtube.com
-223.255.227.170   gaming.youtube.com
-223.255.227.170   help.youtube.com
-223.255.227.170   accounts.youtube.com
-223.255.227.170   insight.youtube.com
-223.255.227.170   apiblog.youtube.com
-223.255.227.170   clients1.youtube.com
-223.255.227.170   youtube.com
-223.255.227.170   s.youtube.com
-223.255.227.170   s2.youtube.com
-223.255.227.170   ads.youtube.com
-223.255.227.170   img.youtube.com
-223.255.227.170   googledrive.com
-223.255.227.170   upload.youtube.com
 223.255.227.170   up.corp.google.com
 223.255.227.170   security.google.com
 223.255.227.170   sheets.google.com
@@ -2035,19 +2041,7 @@
 223.255.227.170   upload.docs.google.com
 223.255.227.170   wifi.google.com
 223.255.227.170   writely.google.com
-223.255.227.170   panoramio.com
-223.255.227.170   www.panoramio.com
-223.255.227.170   www.calicolabs.com
-223.255.227.170   calicolabs.com
-223.255.227.170   www.googleartproject.com
 223.255.227.170   myaccount.google.com
-223.255.227.170   chrome.angrybirds.com
-223.255.227.170   developer.chrome.com
-223.255.227.170   feeds.feedburner.com
-223.255.227.170   feeds2.feedburner.com
-223.255.227.170   googlemashups.com
-223.255.227.170   www.googlemashups.com
-223.255.227.170   editor.googlemashups.com
 223.255.227.170   guru.google.com
 223.255.227.170   pagead.google.com
 223.255.227.170   ads.google.com
@@ -2059,14 +2053,11 @@
 223.255.227.170   mapsengine.google.com
 223.255.227.170   hangouts.google.com
 223.255.227.170   hangout.google.com
-223.255.227.170   www.searchmash.com
 223.255.227.170   base.google.com
 223.255.227.170   dir.google.com
 223.255.227.170   firebase.google.com
 223.255.227.170   ext.google.com
 223.255.227.170   directory.google.com
-223.255.227.170   www.feedburner.com
-223.255.227.170   www.googlegroups.com
 223.255.227.170   health.google.com
 223.255.227.170   admin.google.com
 223.255.227.170   tbn4.google.com
@@ -2336,8 +2327,8 @@
 223.255.227.170   patents.google.com
 223.255.227.170   upload.google.com
 223.255.227.170   myactivity.google.com
+223.255.227.170   developer.google.com
 223.255.227.170   developers.google.com
-223.255.227.170   stage.gdata.youtube.com
 223.255.227.170   productforums.google.com
 223.255.227.170   toolbarqueries.google.com
 223.255.227.170   analytics.google.com
@@ -2351,8 +2342,6 @@
 223.255.227.170   bigquery.cloud.google.com
 223.255.227.170   iso.clients.google.com
 223.255.227.170   android.clients.google.com
-223.255.227.170   manifest.googlevideo.com
-223.255.227.170   www.youtube-nocookie.com
 223.255.227.170   encrypted-tbn0.google.com
 223.255.227.170   encrypted-tbn1.google.com
 223.255.227.170   encrypted-tbn2.google.com
@@ -2368,9 +2357,6 @@
 223.255.227.170   suggestqueries.google.com
 223.255.227.170   googleapis-ajax.google.com
 223.255.227.170   uploads.clients.google.com
-223.255.227.170   www.googlesyndication.com
-223.255.227.170   www.googlechinawebmaster.com
-223.255.227.170   gsamplemaps.googlepages.com
 223.255.227.170   linkhelp.clients.google.com
 223.255.227.170   uploadsj.clients.google.com
 223.255.227.170   video-stats.video.google.com
@@ -2469,6 +2455,54 @@
 223.255.227.170   browserchannel-docs.l.google.com
 223.255.227.170   www-google-analytics.l.google.com
 223.255.227.170   browserchannel-spreadsheets.l.google.com
+223.255.227.170   chrome.com
+223.255.227.170   www.chrome.com
+223.255.227.170   developer.chrome.com
+223.255.227.170   gmail.com
+223.255.227.170   m.gmail.com
+223.255.227.170   www.gmail.com
+223.255.227.170   m.googlemail.com
+223.255.227.170   android.com
+223.255.227.170   dev.android.com
+223.255.227.170   www.android.com
+223.255.227.170   androidify.com
+223.255.227.170   www.androidify.com
+223.255.227.170   source.android.com
+223.255.227.170   market.android.com
+223.255.227.170   developer.android.com
+223.255.227.170   html5rocks.com
+223.255.227.170   youtube.com
+223.255.227.170   s.youtube.com
+223.255.227.170   s2.youtube.com
+223.255.227.170   ads.youtube.com
+223.255.227.170   img.youtube.com
+223.255.227.170   googledrive.com
+223.255.227.170   upload.youtube.com
+223.255.227.170   gdata.youtube.com
+223.255.227.170   gaming.youtube.com
+223.255.227.170   help.youtube.com
+223.255.227.170   accounts.youtube.com
+223.255.227.170   insight.youtube.com
+223.255.227.170   apiblog.youtube.com
+223.255.227.170   clients1.youtube.com
+223.255.227.170   stage.gdata.youtube.com
+223.255.227.170   manifest.googlevideo.com
+223.255.227.170   www.youtube-nocookie.com
+223.255.227.170   panoramio.com
+223.255.227.170   www.panoramio.com
+223.255.227.170   googleartproject.com
+223.255.227.170   www.googleartproject.com
+223.255.227.170   googlemashups.com
+223.255.227.170   www.googlemashups.com
+223.255.227.170   editor.googlemashups.com
+223.255.227.170   searchmash.com
+223.255.227.170   www.searchmash.com
+223.255.227.170   www.feedburner.com
+223.255.227.170   feeds.feedburner.com
+223.255.227.170   feeds2.feedburner.com
+223.255.227.170   googlegroups.com
+223.255.227.170   www.googlegroups.com
+223.255.227.170   google-analytics.com
 223.255.227.170   admob.com
 223.255.227.170   www.admob.com
 223.255.227.170   apps.admob.com
@@ -2848,10 +2882,12 @@
 223.255.227.170   content.googleapis.com
 223.255.227.170   translate.googleapis.com
 223.255.227.170   datasaver.googleapis.com
+223.255.227.170   reminders-pa.googleapis.com
 223.255.227.170   securetoken.googleapis.com
 223.255.227.170   cloudconfig.googleapis.com
 223.255.227.170   remoting-pa.googleapis.com
 223.255.227.170   firebasestorage.googleapis.com
+223.255.227.170   safebrowsing.googleapis.com
 223.255.227.170   clientmetrics-pa.googleapis.com
 223.255.227.170   storage.l.googleusercontent.com
 223.255.227.170   redirector-bigcache.googleapis.com
@@ -4112,6 +4148,18 @@
 216.58.199.12     check.googlezip.net
 216.58.199.12     compress.googlezip.net
 216.58.199.12     proxy-dev.googlezip.net
+74.125.28.121     webrtc.org
+74.125.28.121     www.webrtc.org
+74.125.28.121     www.gwtproject.org
+74.125.28.121     www.html5rocks.com
+74.125.28.121     studio.html5rocks.com
+74.125.28.121     slides.html5rocks.com
+74.125.28.121     updates.html5rocks.com
+74.125.28.121     playground.html5rocks.com
+74.125.28.121     blog.webmproject.org
+74.125.28.121     lists.webmproject.org
+74.125.28.121     www.agoogleaday.com
+74.125.28.121     www.waveprotocol.org
 74.125.28.121     ghs.google.com
 74.125.28.121     ghs.l.google.com
 74.125.28.121     blog.schema.org
@@ -4119,7 +4167,13 @@
 74.125.28.121     tools.android.com
 74.125.28.121     ghs46.google.com
 74.125.28.121     ghs46.l.google.com
+74.125.28.121     ghs.googlehosted.com
 74.125.28.121     blog.panoramio.com
+74.125.28.121     calicolabs.com
+74.125.28.121     www.calicolabs.com
+74.125.28.121     www.snapchat.com
+74.125.28.121     support.snapchat.com
+74.125.28.121     accounts.snapchat.com
 74.125.28.121     www.chromestatus.com
 74.125.28.121     www.android-x86.org
 74.125.28.121     calendar.android-x86.org
@@ -4797,8 +4851,8 @@
 218.254.1.13      db.tt
 218.254.1.13      dropbox.com
 218.254.1.13      m.dropbox.com
-218.254.1.13      www.dropbox.com
 218.254.1.13      www.v.dropbox.com
+162.125.66.1      www.dropbox.com
 108.160.172.193   d.dropbox.com
 108.160.172.193   d.v.dropbox.com
 108.160.172.193   api-d.dropbox.com
